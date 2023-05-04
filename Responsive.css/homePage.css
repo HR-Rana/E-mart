@@ -1,0 +1,645 @@
+
+:root{
+  --GrayLight:#B8B4C7;
+  --GrayRgba:rgb(184,180,199,.5);
+   --bodyRGB:rgb(184,180,199,.3);
+  --secondary:#9893B0;
+  --darkGray:rgb(152,147,176);
+  --bluelight:#654FC3;
+  --blueLight-rgba:rgb(101,79,195, .6);
+ --primary:#4C35AE;
+ --primaryLight-rgba:rgb(76,53,174,.6);
+ --Primary-deep:#351E98;
+ --PrimaryDeep-rgb:rgb(53,30,152);
+ 
+ 
+ 
+ }
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1200px) {
+   
+    .shop-by-catagory .product-box .shop-product{
+    width: 32%;
+  }
+  .feature-Product-area .feature{
+    width:23.5%;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:992px) {
+  .top-bit{
+    padding: 0;
+  }
+  .navigation{
+    display: none;
+  }
+.navigation2{
+  display: block;
+}
+.navigation2 .logo-site{
+  display: block;
+}
+  .social-icons-area{
+    width: 100%;
+    display: block;
+  }
+  .responsive-icons{
+    display: block;
+    justify-content: space-between;
+  }
+  .responsive-icons .flex-box{
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .logo-site{
+    width: 20%;
+    padding: 0px 15px;
+    text-align:left;
+    display: none;
+  }
+  .signUP-area .logo-site{
+
+    text-align:left;
+    display: block;
+  }  .login-area .logo-site{
+   
+    text-align:left;
+    display: block;
+  }
+  .navigation2 .catagories-text2 i{
+    font-size: 22px;
+  }.navigation2 .catagories-text2 p{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: -5px;
+  }
+  header .social-icons-area .social-icons .flex-box{
+    width: 15%;
+    margin: 0 auto;
+    justify-content: space-between;
+    text-align: center;
+  }
+  header .social-icons li{
+    width: 23.5%;
+    justify-content: space-between;
+    font-size: 23px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .flat-discount-area .discount-box{
+    width: 100%;
+    position: relative;
+    top:8%;
+    margin: 20px;
+  }  .flat-discount-area .discount-box img{
+      
+    position: relative;
+    top:18%;
+    margin: 20px;
+  }
+  .flat-discount-area .left{
+    display: block;
+  }
+  .flat-discount-area .right{
+    display: block;
+  }
+  
+  header .search-bar-area{
+    justify-content: space-between;
+    display: none;
+  }
+  header .search-bar-area .search-input{
+    width:100%;
+    align-self:center;
+    padding: 10px 0;
+  }
+  header .search-bar-area{
+    width: 40%;
+    align-self:center;
+    padding: 10px 0;
+  
+  }
+
+  header .search-bar-area input{
+    width: 100%;
+  }
+  .search-bar-area .search-button{
+    width: 20%;
+    padding: 10px 0;
+    background-color: one;
+  }
+  .search-bar-area .search-button button:hover{
+    transform: translateX(0);
+  }
+  .search-bar-area .search-button button{
+    width: 95%;
+  
+   color: white;
+  }
+  
+  header .top-bit .right-site-list{
+    width: 70%;
+    display: none;
+  }
+  .small-screen{
+    display: block;
+  }
+ 
+    .shop-by-catagory .product-box .shop-product{
+    width: 32%;
+ 
+  }
+  .feature-Product-area .feature{
+    width:32%;
+  }
+  .Subscription-box .flex-box{
+    display: block
+  }
+  .Subscription-area .left-site{
+    width:75%;
+   
+  }
+  .Subscription-area .right-site{
+    width: 60%;
+   float: right;
+   overflow: hidden;
+  }
+
+  .footer-area{
+    padding-bottom: 60px;
+  }
+
+}
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+   header .catagory-list .lists{
+    position: relative;
+  }
+  .logo-site{
+   display: none;
+    
+  }
+  .navigation2 .right-logo-cart
+.logo-site{
+ 
+  margin-top: 0px;
+ 
+}
+  .navigation2{
+    padding: 15px 25px;
+  }
+  .navigation2 .catagories-text2 p{
+    display: none;
+  }   .navigation2 .catagories-text2 i{
+   padding-left: 15px;
+  }  
+  header .social-icons-area .social-icons .flex-box{
+    width:20%;
+    margin: 0 auto;
+    justify-content: space-between;
+    text-align: center;
+   
+  }
+  
+  .header .social-icons i{
+    font-size: 18px;
+  }
+  .responsive-logo{
+    display: block;
+  }
+  .catagory-list .lists{
+    display: one;
+  } 
+  .catagories{
+    width: 25%;
+    border-right: none;
+}
+  header .left{
+    margin-top: -10px;
+  } header .right{
+    margin-top: -10px;
+    padding-bottom: 0;
+  }
+  .logo-site a span{
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 25px;
+  }
+  .logo-site a{
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+  header .search-bar-area .search-input{
+    width: 90%;
+    align-self:center;
+   
+  }
+  header .search-bar-area{
+    padding: 0;
+    margin: 0;
+    margin-top: -10px;
+  } header .search-bar-area .search-box{
+    padding: 0;
+    margin: 0;
+  }header .search-bar-area .search-box .search-input{
+    padding: 0;
+    margin: 0;
+   
+  }
+  header .top-bit .right-site-list{
+    width:70%;
+    float: right;
+    justify-content: space-between;
+  }
+  header .right .icons li span{
+    display: none;
+  }
+  header .right .icons .flex-box{
+    width:90%;
+    float: right;
+    overflow: hidden;
+   /* margin-right: 15px 5px; */
+
+   text-align:right;
+  }
+  .flat-discount-area .discount-box{
+    width: 100%;
+    position: static;
+    margin: 20px;
+    color: white;
+  }
+  .flat-discount-area .discount-img{
+    width: 100%;
+    height:;
+    float: none;
+    overflow:none;
+  }
+  .flat-discount-area img{
+    position: relative;
+  }
+  .flat-discount-area .right-site{
+    margin-top: 20px;
+  }
+    .Temstimonials-area .flex-box{
+       display: block;
+   }
+   .Temstimonials-area .carousel-area{
+       width: 100%;
+   }
+   .Temstimonials-area .right-site{
+    width: 100%;
+    height: 60vh;
+  }
+  .Subscription-area .left-site{
+    width:100%;
+  }
+
+  .Subscription-area .left-site i{
+    font-size:35px;
+    text-align: left;
+    padding: 15px 5px;
+    align-self: center;
+    display: none;
+  }
+  .Subscription-area .right-site{
+    width: 70%;
+   float: right;
+   overflow: hidden;
+  }
+
+  .catagory-aria .responsive-logo{
+    display: block;
+  }
+  
+  .footer-area .footer-information{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+  }
+  .footer-area .footer-information{
+    width: 100%;
+    float: none;
+
+    text-align: left;
+    }
+
+  
+    .footer-area li{
+      width: 100%;
+      text-align: center;
+    }
+    .footer-area h6{
+      color: var(--Primary-deep);
+    }
+}
+
+
+
+
+
+
+@media (max-width:576px) {
+  header .social-icons-area{
+    display: none;
+
+  }
+  .navigation2 .right-logo-cart
+.logo-site{
+  
+  margin-top: 5px;
+ 
+}
+  .shopping-cart2 i{
+    padding-left: 5px;
+  }
+  .navigation2 .logo-site a{
+    margin: 0;
+  }
+  header .social-icons-area .social-icons .flex-box{
+    width:25%;
+    margin: 0 auto;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .shopping-cart2 .cart-balance{
+    font-size: 20px;
+  }
+  header .right{
+    width: 100%;
+    display: block;
+  }
+  header .social-icons-area{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    align-self: center;
+  }
+  header .social-icons-area i{
+    font-size: 18px;
+  }
+  .logo-site{
+    width: 30%;
+    padding: 0px 15px;
+    text-align:left;
+    display: none;
+  }
+  .catagories2{
+    width: 40%;
+    display: block;
+    margin-left: -20px;
+    border-right: none;
+  }
+   header .catagories-text2 p span{
+    display: none;
+  }
+
+  header .new-product-line{
+    display: none;
+  }
+ 
+
+    .shop-by-catagory .product-box .shop-product{
+    width: 48.7%;
+    }
+   .flat-discount-area .row{
+    padding:0 5px;
+     }
+     .flat-discount-area .left-site{
+      display: block;
+      width: 100%;
+    }  .flat-discount-area .right-site{
+      display: block;
+      width: 100%;
+    }
+    .flat-discount-area .discount-box{
+      width: 100%;
+      position: relative;
+      top: 18%;
+      margin: 20px;
+      color: white;
+      letter-spacing: 1px;
+      text-align: center;
+      line-height:30px;
+    }
+     .flat-discount-area .discount-img{
+      width: 80%;
+      height: 400px;
+      float: none;
+      padding: 0px;
+     justify-content: center;
+    }
+   
+    .flat-discount-area .discount-img img{
+      width: 100%;
+      height: 100%;
+     
+    
+    
+    }
+     .feature-Product-area .feature{
+        width:48.7%;
+      }
+      
+      .blog-section .blog{
+      margin: 20px 0;
+      }
+
+      .blog-section .blog img{
+        height: 300px;
+      }
+      .Subscription-area .left-site{
+        width:100%;
+       
+      }
+      .Subscription-area .right-site{
+        width:100%;
+
+      }
+      section h3{
+        font-size: 22px;
+      }
+      .footer-area .footer-inforamtion-box{
+        display: block;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      
+  .footer-area .footer-information{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+  }
+
+}
+
+
+
+
+
+@media (max-width:480px) {
+   
+    .navigation2{}
+    .navigation2 .logo-site a{
+      font-size: 18px;
+    }
+  .navigation2 .logo-site a span{
+      font-size:20px;
+    }
+  
+    header .top-bit .right-site-list{
+      width: 60%;
+      justify-content: space-between;
+    }
+    .language{
+      display: none;
+    }
+
+    header .social-icons-area .social-icons .flex-box{
+      width:30%;
+    
+    }
+    header .right .icons li span{
+      display: none;
+    }
+    header .search-bar-area{
+      width:60%;
+      align-self:center;
+      padding: 0px 0;
+    
+    }
+    header .search-bar-area input{
+      font-size: 13px;
+    } header .search-bar-area button{
+     padding: 3px 0;
+    }
+    .search-bar-area .search-button button{
+      width: 100%;
+      padding:2px 10px;
+    }
+
+    .responsive-icons li i{
+      font-size: 19px;
+    }
+    .shopping-cart{
+      width: 50%;
+        float: right;
+        margin: 0 auto;
+    overflow: hidden;
+
+    }
+    .shopping-cart h6{
+      font-size: 13px;
+    }
+
+    .menu-area .menu ul li{
+      text-align: center;
+      
+    }
+   
+      .shop-by-catagory .product-box .shop-product{
+      width:100%;
+      margin: 10px auto;
+    }
+    .shop-by-catagory img{
+      height: 300px;
+      transition: .7s;
+    }
+    .flat-discount-area .left-site{
+      display: block;
+      width: 100%;
+    }  .flat-discount-area .right-site{
+      display: block;
+      width: 100%;
+    }
+    .feature-Product-area .discount-img{
+      width: 100%;
+      float: none;
+    }  .feature-Product-area .discount-box{
+      width: 100%;
+      float: none;
+    }
+    .feature-Product-area .feature{
+      width:100%;
+    }
+    .flat-discount-area .left-site{
+      display: block;
+    } .flat-discount-area .right-site{
+      display: block;
+    }
+    .flat-discount-area .discount-box{
+      width: 100%;
+      position: static;
+      margin: 20px;
+      color: white;
+    }
+    .flat-discount-area .discount-img{
+      width: 100%;
+      height: 200px;
+      float: none;
+      overflow: hidden;
+    }
+    /* .flat-discount-area .discount-img img{
+      width: 100%;
+      float: none;
+      overflow: hidden;
+      position: relative;
+      vertical-align: middle;
+      background-color: red;
+    } .flat-discount-area .left-site .discount-img img{
+      float: none;
+      overflow: hidden;
+      position: relative;
+      vertical-align: middle;
+      background-color: red;
+    } */
+    .blog-section .blog img{
+      height: 250px;
+    }
+    .Subscription-area .left-site .text h3{
+      font-size: 22px;
+      
+    }
+
+    
+  .footer-area .footer-information{
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    text-align: left;
+    }
+    .footer-information .footer-area li{
+      width: 100%;
+      text-align: left;
+    }
+
+}

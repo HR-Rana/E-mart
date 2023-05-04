@@ -1,0 +1,137 @@
+
+
+:root{
+    --secondary: #0582e2;
+    --primary:rgb(201, 47, 0);
+    --dddd:#dddd;
+
+    --border-radius: 10px;
+    --product-sadow:0px 0px 30px 0px rgba(0,0,0, .1);
+    --defult-fonts:16px;
+    --h1-font-size:48px;
+    --h2-font-size:36px;
+    --h3-font-size:30px;
+    --h4-font-size:25px;
+    --transition: .5s;
+    --text-transform: uppercase;
+}
+
+:root{
+    --GrayLight:#B8B4C7;
+    --GrayRgba:rgb(184,180,199,.5);
+     --bodyRGB:rgb(184,180,199,.3);
+    --secondary:#9893B0;
+    darkGray:rgb(152,147,176);
+    --bluelight:#654FC3;
+    --blueLight-rgba:rgb(101,79,195, .6);
+   --primary:#4C35AE;
+   --primaryLight-rgba:rgb(76,53,174,.6);
+   --Primary-deep:#351E98;
+   --PrimaryDeep-rgb:rgb(53,30,152);Deep;
+   
+   
+   
+   }
+
+
+
+
+
+
+
+.blog-detail-page{
+    padding: 10px 0;
+}
+.blog-detail-page .container{
+    background-color: rgb(233, 233, 233);
+}
+.blog-detail-page .left-blog-section{
+    width: 60%;
+    padding: 15px;
+}
+.blog-detail-page .blog{
+    margin: 10px 0;
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: var(--border-radius);
+}
+.blog-detail-page .blog .images-icon-layer{
+    display: none;
+}
+.blog-detail-page .blog .blog-body{
+    padding: 10px;
+    background-color: #dddd;
+    transition: .5s;
+   }
+   
+  
+
+.blog-detail-page a:hover{
+    color: black;
+}
+.blog-detail-page a{
+    color: black;
+    text-align: left;
+    text-decoration: none;
+}
+
+.blog-detail-page img{
+    height: 250px;
+}
+
+
+
+
+
+
+
+
+.right-Recomonded-section{
+    width: 38%;
+    margin:0 15px;
+    padding: 25px 0;
+}
+.right-Recomonded-section .Product-area{
+    width: 80%;
+    margin: 0 auto;
+    height: 800px;
+    background-color: var(--dddd);
+    overflow: scroll;
+    box-shadow: 0px 0px 25px 0px rgba(0, 116, 232, 0.1);
+}
+.right-Recomonded-section .Product:hover{
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0, .1);
+    border: 1px solid var(--primary);
+}
+.right-Recomonded-section .Product{
+    width:80%;
+    margin: 10px auto;
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+    cursor: pointer;
+    border: 1px solid white;
+}
+.right-Recomonded-section .Product img{
+    border-radius: var(--border-radius);
+}
+
+.right-Recomonded-section .Product .card-body h6 span{
+    color: var(--primary);
+}
+
+
+html::-webkit-scrollbar-thumb{
+    background-color: green;
+    display: none;
+}
+html::-webkit-scrollbar-track{
+    background-color: gainsboro;
+    display: none;
+}
+
+
+.scroll{
+    width: 40%;
+    margin: 0 auto;
+    height: 400px;
+    overflow: scroll;
+}

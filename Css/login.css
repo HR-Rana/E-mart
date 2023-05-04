@@ -1,0 +1,174 @@
+
+
+
+:root{
+    --secondary: #0582e2;
+    --primary:rgb(201, 47, 0);
+    --dddd:#dddd;
+
+    --border-radius: 10px;
+    --product-sadow:0px 0px 30px 0px rgba(0,0,0, .1);
+    --defult-fonts:16px;
+    --h1-font-size:48px;
+    --h2-font-size:36px;
+    --h3-font-size:30px;
+    --h4-font-size:25px;
+    --transition: .5s;
+    --text-transform: uppercase;
+}
+
+:root{
+    --GrayLight:#B8B4C7;
+    --GrayRgba:rgb(184,180,199,.5);
+     --bodyRGB:rgb(184,180,199,.3);
+    --secondary:#9893B0;
+    darkGray:rgb(152,147,176);
+    --bluelight:#654FC3;
+    --blueLight-rgba:rgb(101,79,195, .6);
+   --primary:#4C35AE;
+   --primaryLight-rgba:rgb(76,53,174,.6);
+   --Primary-deep:#351E98;
+   --PrimaryDeep-rgb:rgb(53,30,152);Deep;
+   
+   
+   
+   }
+
+
+
+
+
+
+.login-area .left-site{
+    width: 40%;
+    background: linear-gradient(to bottom, rgba(255,255,255, .9),rgba(255,255,255, .9)), url(../images/Background\ images/family-g0bfed40d7_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.login-area .left-site .text{
+    width: 75%;
+    margin: 0 atuo;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+}
+.login-area .left-site .text h3{}
+.login-area .left-site .text p{
+    width: 60%;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+
+.top-wrap{
+  margin-top: 35px;
+  
+}
+.top-wrap .logo-site{
+    width: 50%;
+    text-transform: uppercase;
+    text-align: left;
+}
+.top-wrap .right-text{
+    width: 50%;
+    padding-top: 7px;
+}
+.top-wrap  p{
+    width: 100%;
+    float: right;
+    overflow: hidden;
+    font-size: 20px;
+    text-align: right;
+   
+}
+
+
+
+
+
+
+.login-form{
+    width: 50%;
+    background-color: var(--dddd);
+    padding: 25px;
+    height: 100vh;
+}
+
+.login-area .border-area{
+    border: 2px solid var(--primary);
+    padding:25px 15px;
+    margin: 10px 0;
+}
+
+.login-area .border-area h2{
+    text-align: center;
+    color: var(--secondary);
+    padding-bottom: 20px;
+}
+.login-area .border-area form{
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+.login-area .border-area form .fill{
+    margin: 20px 0;
+}
+.login-area .border-area form label{
+    width: 25%;
+    font-weight: 600;
+}
+.login-area .border-area form input{
+    width: 60%;
+    float: right;
+    overflow: hidden;
+}
+
+.login-area  .Login p{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.login-area .border-area .Login p a{
+    color: var(--primary);
+}
+.login-area  form .button{
+    text-align: center;
+}
+.login-area .border-area button:hover{
+    transform: translateY(5px);
+}
+.login-area .border-area button{
+    width: 40%;
+    border-radius: var(--border-radius);
+    text-transform: uppercase;
+    color: white;
+    transition: var(--transition);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.go-back a:hover{
+    color: var(--primary);
+}
+.go-back a{
+    font-weight: 600;
+    padding: 25px 0;
+    margin-top: 15px;
+    text-decoration: none;
+}

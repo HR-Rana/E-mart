@@ -1,0 +1,66 @@
+:root{
+    --GrayLight:#B8B4C7;
+    --GrayRgba:rgb(184,180,199,.5);
+     --bodyRGB:rgb(184,180,199,.3);
+    --secondary:#9893B0;
+    --darkGray:rgb(152,147,176);
+    --bluelight:#654FC3;
+    --blueLight-rgba:rgb(101,79,195, .6);
+   --primary:#4C35AE;
+   --primaryLight-rgba:rgb(76,53,174,.6);
+   --Primary-deep:#351E98;
+   --PrimaryDeep-rgb:rgb(53,30,152);
+   
+   
+   
+   }
+  
+   :root{
+    
+    --border-radius: 10px;
+    --product-sadow:0px 0px 30px 0px rgba(0,0,0, .1);
+    --defult-fonts:16px;
+    --h1-font-size:48px;
+    --h2-font-size:36px;
+    --h3-font-size:30px;
+    --h4-font-size:25px;
+    --transition: .5s;
+    --text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+.product-preview th{
+    text-align: center;
+}
+.product-preview td{
+    width: 25%;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.product-preview img{
+    width: 100px;
+    height: 80px;
+    border-radius: var(--border-radius);
+}
+
+
+.product-preview .button{
+    text-align: center;
+    margin: 30px 0;
+}
+.product-preview button{
+    width: 50%;
+    border-radius: var(--border-radius);
+    padding: 5px 0;
+}

@@ -1,0 +1,99 @@
+
+:root{
+  
+    --border-radius: 10px;
+    --product-sadow:0px 0px 30px 0px rgba(0,0,0, .1);
+    --defult-fonts:16px;
+    --h1-font-size:48px;
+    --h2-font-size:36px;
+    --h3-font-size:30px;
+    --h4-font-size:25px;
+    --transition: .5s;
+    --text-transform: uppercase;
+}
+
+:root{
+    --GrayLight:#B8B4C7;
+    --GrayRgba:rgb(184,180,199,.5);
+     --bodyRGB:rgb(184,180,199,.3);
+    --secondary:#9893B0;
+    darkGray:rgb(152,147,176);
+    --bluelight:#654FC3;
+    --blueLight-rgba:rgb(101,79,195, .6);
+   --primary:#4C35AE;
+   --primaryLight-rgba:rgb(76,53,174,.6);
+   --Primary-deep:#351E98;
+   --PrimaryDeep-rgb:rgb(53,30,152);Deep;
+   
+   
+   
+   }
+
+
+
+
+
+
+
+
+@media (max-width:992px) {
+   .contact-area .flex-box{
+        display: block;
+    }
+    .contact-area .left-site{
+        width: 100%;
+        padding: 10px 20px;
+        margin: 0 auto;
+    }
+    .left-site h5{
+        text-align: center;
+    }
+    .left-site .flex-box{
+        display: flex;
+    }
+    .contact-area .right-site{
+    width:100%;
+    padding: 10px 20px;
+    border-left:none;
+    border-top:1px solid ;
+    margin: 0 auto;
+    }
+
+}
+
+
+@media (max-width:480px) {
+    .inputs{
+        display: block;
+    }
+
+    .contact-area .left-site .inputs label{
+        width: 100%;
+    }
+    .contact-area .left-site .inputs input{
+        width: 100%;
+       
+    }
+    .contact-area .left-site .text-area textarea{
+        width: 100%;
+ 
+    }
+    .contact-area .left-site .text-area p{
+        width: 100%;
+    }
+    .left-site .flex-box{
+        display: block;
+    }
+    .contact-area .left-site .button input{
+        width: 50%;
+       
+    }
+    .contact-area .right-site .logo-site{
+        width: 100%;
+        padding: 0px 15px;
+       
+      }
+      .contact-area .left-site .logo-site a{
+        font-size: 25px;
+      }
+}

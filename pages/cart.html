@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="../Css/style.css">
+    <link rel="stylesheet" href="../Css/cart.css">
+    <link rel="stylesheet" href="../Responsive.css/cart.css">
+    <link rel="stylesheet" href="../Responsive.css/homePage.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" integrity="sha512-X/RSQYxFb/tvuz6aNRTfKXDnQzmnzoawgEQ4X8nZNftzs8KFFH23p/BA6D2k0QCM4R0sY1DEy9MIY9b3fwi+bg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body id="body">
+    <header>
+        <header>
+            <div class="top-bit">
+                <div class="logo-site">
+                    <div title="E-coomerce market">
+                        <a href="index.html"><span>E-</span>Mart </a>
+                    </div>
+                </div>
+    
+                <div class="search-bar-area">
+                    <div class="search-box">
+                        <div class="d-flex">
+                            <div class="search-input">
+                                <input type="search" placeholder="Search Product Here...">
+                            </div>
+                            <div class="search-button">
+                                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="social-icons-area">
+                    <div class="social-icons">
+                        <div>
+                            <div class="flex-box">
+                                <li><i class="fa-brands fa-facebook"></i> </li>
+                                <li><i class="fa-brands fa-instagram"></i> </li>
+                                <li><i class="fa-brands fa-linkedin"></i> </li>
+                                <li><i class="fa-brands fa-twitter"></i> </li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="right-site-list flex-box">
+                    <div class="left">
+                        <div class="d-flex">
+                            <div class="offer">
+                                <!-- <a href="">
+                                    <p>Offer zone</p>
+                                </a> -->
+                            </div>
+                            <div class="language">
+                                <select>
+                                    <option value="">Language</option>
+                                    <option value="">English</option>
+                                    <option value="">France</option>
+                                    <option value="">Spanish</option>
+                                    <option value="">Chaines</option>
+                                    <option value="">Germany</option>
+                                    <option value="">Hindi</option>
+                                    <option value="">Japanes</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+    
+    
+    
+                    <div class="right">
+                        <div class="new-product-line">
+                            <div>
+                                <p><a href="">New Products</a></p>
+                            </div>
+                        </div>
+                        
+    
+                        <div class="icons">
+                            <div class="flex-box">
+                                <li title="Favorite list"><i class="fa-regular fa-heart"></i><span>favorite</span></li>
+                                <li title="LogIn your Account" class="login"><a href=""><i class="fa-solid fa-user"></i></a><span>Log in</span></li>
+                                <li title="Creat an Account" class="signup"><a href=""><i class="fa-solid fa-user-plus" ></i></a><span>Sign UP</span></li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- <div class="small-screen">
+                <div class="search-bar-area2">
+                    <div class="d-flex">
+                        <div class="search-input">
+                            <input type="search" placeholder="Search Product Here...">
+                        </div>
+                        <div class="search-button">
+                            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+    
+    
+            <div class="responsive-icons">
+                <div>
+                    <div class="flex-box">
+                        <li><a href=""><i class="fa-solid fa-heart"></i></a> <p>Favorite</p></li>
+                        <li><a href=""><i class="fa-brands fa-shopify"></i></a><p>Shop</p></li>
+                         <li class="account"><a href=""><i class="fa-solid fa-user"></i></a> <p>Account</p></li>
+                        <li class="signup"><a href=""><i class="fa-solid fa-money-check-dollar"></i></a><p>Card</p></li>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="navigation">
+                <div class="container-fluid">
+                    <div class="catagory-area">
+                        <div class="d-flex">
+                            <div class="catagories">
+                                <div class="catagories-text d-flex">
+                                    <p> <i class="fa-solid fa-bars"></i> <span>All Catagories</span> </p>
+                                  <span>  <i class="fa-solid fa-caret-down"></i></span>
+                                </div>
+    
+                                <div class="catagory-list">
+                                    <div class="lists">
+                                        <ul>
+                                            <li class="fashion"><a >Fashion</a>
+                                                <ul class="fashion-sublist">
+                                                    <li><a href="">Gents Fashion</a></li>
+                                                    <li><a href="">Ledies Fashion</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="">Jwellery</a></li>
+                                            <li><a href="">Cosmetics</a></li>
+                                            <li class="shoes-list"><a >Shoes</a>
+                                                <ul class="shoes-sublist">
+                                                    <li><a href="">Gents Shoe</a></li>
+                                                    <li><a href="">Ledies Shoe</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="">Sunglass</a></li>
+                                            <li><a href="">Watchs</a></li>
+                                            <li><a href="">Toys</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> 
+                            
+                            
+                                    
+                            <div class="responsive-logo">
+                                <div class="logo-site">
+                                    <div title="E-coomerce market">
+                                        <a href="index.html"><span>E-</span>Mart </a>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="menu-area">
+                                <nav class="menu">
+                                    <ul class="nav">
+                                        
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="brand.html">Brand</a></li>
+                                        <li  class="active"><a href="Shop.html">Shop</a></li>
+                                        <li><a href="Contact.html">Contact</a></li>
+                                        <li><a href="Blog.html">Blogs</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+    
+                            <div class="shopping-cart">
+                                <div class="flex-box">
+                                    <div class="cart-balance">
+                                        <h6><i class="fa-solid fa-cart-shopping"></i> My Cart <span
+                                        title="Cart balance">$0.00</span></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+    
+    
+            <div class="navigation2">
+                <div class="d-flex">
+                    <div class="catagory-menu">
+                        <div class="menu-catagory-area">
+                            <div class="catagories2">
+                                <div class="catagories-text2 d-flex">
+                                    <i class="fa-solid fa-bars"></i>
+                                    <p>Menu </p>
+                                </div>
+                                <div class="layer2">
+    
+                                </div>
+                               
+                                <div class="catagory-short-list">
+                                    
+                                    <div class="search-bar">
+                                        <div class="d-flex">
+                                            <input type="search" placeholder="Search Product" id="">
+                                            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                                        </div>
+                                    </div>
+                                    <div class="">
+                                        <div class="buttons-for-menu">
+                                            <div class="catagory-botton">
+                                                <p>Catagories</p>
+                                            </div>
+                                            <div class="menu-botton">
+                                                <p>Menu</p>
+                                            </div>
+                                        </div>
+                                        <div class="catagory-list2">
+                                            <div class="lists2">
+                                                <ul>
+                                                
+                                                    <li class="fashion"><a href="">Fashion</a>
+                                                    <li><a href="">Gents Fashion</a></li>
+                                                    <li><a href="">Ledies Fashion</a></li>
+                                                    </li>
+                                                    <li><a href="">Jwellery</a></li>
+                                                    <li><a href="">Cosmetics</a></li>
+                                                    <li class="shoes-list"><a href="">Shoes</a>
+                                                    <li><a href="">Gents Shoe</a></li>
+                                                    <li><a href="">Ledies Shoe</a></li>
+                                                    </li>
+                                                    <li><a href="">Sunglass</a></li>
+                                                    <li><a href="">Watchs</a></li>
+                                                    <li><a href="">Toys</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="page-menu">
+                                            <div>
+                                                <div class="menu-area2">
+                                                    <div class="language2">
+                                                        <select>
+                                                            <option value="">Language</option>
+                                                            <option value="">English</option>
+                                                            <option value="">France</option>
+                                                            <option value="">Spanish</option>
+                                                            <option value="">Chaines</option>
+                                                            <option value="">Germany</option>
+                                                            <option value="">Hindi</option>
+                                                            <option value="">Japanes</option>
+                                                        </select>
+                                                    </div>
+                                                    <nav class="menu2">
+                                                        <ul class=""> 
+                                                            <li class="active"><a href="index.html">Home</a></li>
+                                                            <li><a href="brand.html">Brand</a></li>
+                                                            <li><a href="Shop.html">Shop</a></li>
+                                                            <li><a href="Contact.html">Contact</a></li>
+                                                            <li><a href="Blog.html">Blogs</a></li>
+                                                            <li><a href="">Offer</a></li>
+                                                            
+                                                        </ul>
+                                                    </nav>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    
+    
+                    <div class="right-logo-cart">
+                        <div class="d-flex">
+                            <div class="logo-site">
+                                <div title="E-coomerce market">
+                                    <a href="index.html"><span>E-</span>Mart </a>
+                                </div>
+                            </div>
+                            
+                            <div class="shopping-cart2">
+                                <div class="flex-box">
+                                    <div class="cart-balance">
+                                        <i class="fa-solid fa-cart-shopping"></i> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+    
+        <!-- +++++++++++++++++  login area ++++++++++++++++++++++++ -->
+    
+        
+    <!-- +++++++++++++++++  login area ++++++++++++++++++++++++ -->
+
+    <section class="login-singup-section login-area">
+        <div class="">
+            <div>
+                <div class="layer">
+
+                </div>
+                <div class="login-form ">
+                    <fieldset>
+                        <div class="flex-box top-wrap">
+                            <div class="logo-site">
+                                <div>
+                                    <a>Login</a>
+                                    
+                                </div>
+                            </div>
+                            <div class="right-text">
+                                <!-- <i class="fa-solid fa-xmark">  -->
+                                    <span>Close</span></i>
+                            </div>
+                        </div>
+                        <div class="border-area">
+                            <div>
+                                <div>
+                                    <form action="">
+                                        <div>
+                                            <div class="mail fill">
+                                                <label for="mail">Enter your email :</label><br>
+                                                <input type="mail" placeholder="Email Address" id="mail" required>
+                                            </div> 
+                                            <div class="password fill">
+                                                <label for="pass">Enter Password :</label><br>
+                                                <input type="password" placeholder="Password" id="pass" required>
+                                            </div>
+                                        </div>
+                                        <div class="Login">
+                                            <a href="">Forgot your Password?</a>
+                                        </div>
+        
+                                        <div class="button">
+                                            <button>Login</button>
+                                        </div>
+                                    </form>
+                                    <div class="other-way-area">
+                                        <div class="login-other-way">
+                                            <h6>Or Login with </h6>
+                                        </div>
+                                        <div class="fb-google">
+                                            <div>
+                                                <li><i class="fa-brands fa-google"></i> <span>Google</span></li>
+                                                <li><i class="fa-brands fa-facebook-square"></i> <span>Facebook</span></li>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="singUpButton">
+                                        <i class="fa-solid fa-user"></i>
+                                        <p>Haven't account Yet?</p>
+                                        <div >
+                                            <p href="" id="SignUP"  style="color:darkred; border-bottom:1px solid blue;">Create Account</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+    </section>
+ <!-- +++++++++++++++++  signUP area ++++++++++++++++++++++++ -->
+
+    <section class="signUP-area">
+        <div class="">
+            <div class="signup-area">
+               <div class="layer">
+
+               </div>
+                <div class="signUP-form">
+                    <fieldset>
+                        <div class="flex-box top-wrap">
+                            <div class="logo-site">
+                                <div>
+                                    <a>SignUP</a>
+                                   
+                                </div>
+                            </div>
+                            <div class="right-text">
+                                <!-- <i class="fa-solid fa-xmark">  -->
+                                    <span>Close</span></i>
+                            </div>
+                        </div>
+                        <div class="border-area">
+                            <div>
+                                <div>
+                                    <form action="">
+                                        <div>
+                                            <div class=" fill">
+                                                <label for="name">User Name :</label><br>
+                                                <input type="mail" placeholder="Name" id="name" required>
+                                            </div> 
+                                            <div class="mail fill">
+                                                <label for="mail">Enter your email :</label><br>
+                                                <input type="mail" placeholder="Email Address" id="mail" required>
+                                            </div> 
+                                            <div class="password fill">
+                                                <label for="pass">Enter Password :</label><br>
+                                                <input type="password" placeholder="Password" id="pass" required>
+                                            </div>
+                                        </div>
+                                        <div class="Login">
+                                            <a href="">Forgot your Password?</a>
+                                        </div>
+        
+                                        <div class="button">
+                                            <button>Login</button>
+                                        </div>
+                                    </form>
+                                    <div class="other-way-area">
+                                        <div class="login-other-way">
+                                            <h6>Or Login with </h6>
+                                        </div>
+                                        <div class="fb-google">
+                                            <div>
+                                                <li><i class="fa-brands fa-google"></i> <span>Google</span></li>
+                                                <li><i class="fa-brands fa-facebook-square"></i> <span>Facebook</span></li>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="loginButton">
+                                        <!-- <i class="fa-solid fa-user"></i>
+                                        <p>Have an account?</p> -->
+                                        <div class="text-center">
+                                            <a href="" id="login">Loigin Account</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section class="product-preview">
+            <div class="container">
+                <div>
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover">
+                            <thead>
+                                <th>NO.</th>
+                                <th>Product</th>
+                                <th>Quantity</th>
+                                <th>Price</th>
+                              </thead>
+                              <tbody>
+                                <tr class="table-active">
+                                    <td>1</td>
+                                 <td class="product-img">
+                                     <img src="../images/ledies shoe/PngItem_16773.png" alt="product" class="img-fluid">
+                                 </td>
+                                    <td>3</td>
+                                    <td><b>$25</b></td>
+                                </tr>
+
+
+                                <tr>
+                                <td>2</td>
+                                    <td class="product-img">
+                                        <img src="../images/gents shoe/shoe (1).jpg" alt="product" class="img-fluid">
+                                    </td>
+                                        <td>1</td>
+                                        <td><b>$25</b></td>
+                                    </tr>
+                                </tr>
+                                
+                                
+                                <tr>
+                                <td>3</td>
+                                    <td class="product-img">
+                                        <img src="../images/Jwellery/jwellery (1).jpg" alt="product" class="img-fluid">
+                                    </td>
+                                        <td>2</td>
+                                        <td><b>$25</b></td>
+                                    </tr>
+                                </tr>
+
+                             <tr>
+                                <td>4</td>
+                                    <td class="product-img">
+                                        <img src="../images/Cosmetics/cosmetics (1).jpg" alt="product" class="img-fluid">
+                                    </td>
+                                        <td>1</td>
+                                        <td><b>$25</b></td>
+                                    </tr>
+                                </tr> 
+                                
+                                
+                                <tr>
+                                <td>5</td>
+                                    <td class="product-img">
+                                        <img src="../images/gents dress/gents t shirt (3).png" alt="product" class="img-fluid">
+                                    </td>
+                                        <td>6</td>
+                                        <td><b>$25</b></td>
+                                    </tr>
+                                </tr>
+
+
+                              </tbody>
+
+                              <tfoot>
+                                  <tr>
+                                      <td colspan="3">Total</td>
+                                      <td> <b>$0152</b></td>
+                                  </tr>
+                              </tfoot>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="button">
+                <button>Place Order</button>
+             </div>
+        </section>
+
+
+
+    
+
+    <section class="Subscription-area">
+        <div class="Subscription-box">
+            <div class="flex-box">
+                <div class="left-site d-flex">
+                    <i class="fa-solid fa-envelope-open-text"></i>
+                    <div class="text">
+                        <h3>Subscribe To Our Newsletter</h3>
+                    <p>Get all the latest information on Events, Sales and Offers.</p>
+                    </div>
+                </div>
+                <div class="right-site">
+                   <div class="mail-input">
+                        <input type="mail" placeholder="Type your @email address">
+                   </div>
+                  <div class="submite-button">
+                    <input type="submit" name="" id="">
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="footer-area">
+        <div>
+            <div class="footer-inforamtion-box row">
+               <div class="col-md-3 col-sm-6 col-12">
+                <div class="footer-information">
+                    <h6>Information</h6>
+                    <div>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Delivery information</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Newsletter</a></li>
+                        <li><a href="">All Offers</a></li>
+                        <li><a href="">Terms and condition</a></li>
+                    </div>
+                </div>
+               </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="footer-information">
+                        <h6>CUSTOMER SERVICE</h6>
+                        <div>
+                            <li><a href="">Brands</a></li>
+                            <li><a href="">Orders Pending</a></li>
+                            <li><a href="">Transactions</a></li>
+                            <li><a href="">Blogs</a></li>
+                            <li><a href="">Newsletter</a></li>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="footer-information">
+                        <h6>Our Address</h6>
+                        <div class="address">
+                            <li class="d-flex"><i class="fa-solid fa-location-pin"></i>
+                                <p>60, 29th Street, San Francisco, CA 94110, United States of America</p>
+                            </li>
+                            <li class="d-flex"><i class="fa-solid fa-at"></i> Example@email.com</li>
+                            <li class="d-flex"><i class="fa-solid fa-phone"></i>
+                                <p><b>Call</b>(+1) 104 4587 890</p>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+
+               <div class="col-md-3 col-sm-6 col-12">
+                <div class="footer-information">
+                    <div class="social-icos">
+                        <div>
+                            <h6>Follow us on</h6>
+                            <div class="">
+                                <li><i class="fa-brands fa-facebook"></i> facebook</li>
+                                <li><i class="fa-brands fa-instagram"></i> instagram</li>
+                                <li><i class="fa-brands fa-linkedin"></i> Linkedin</li>
+                                <li><i class="fa-brands fa-twitter"></i> twitter</li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+
+
+   <script src="../Js/custom.js"></script>
+  <script>
+      
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,345 @@
+
+
+
+:root{
+    --secondary: #0582e2;
+    --primary:rgb(201, 47, 0);
+    --dddd:#dddd;
+
+    --border-radius: 10px;
+    --product-sadow:0px 0px 30px 0px rgba(0,0,0, .1);
+    --defult-fonts:16px;
+    --h1-font-size:48px;
+    --h2-font-size:36px;
+    --h3-font-size:30px;
+    --h4-font-size:25px;
+    --transition: .5s;
+    --text-transform: uppercase;
+}
+
+
+:root{
+    --GrayLight:#B8B4C7;
+    --GrayRgba:rgb(184,180,199,.5);
+     --bodyRGB:rgb(184,180,199,.3);
+    --secondary:#9893B0;
+    darkGray:rgb(152,147,176);
+    --bluelight:#654FC3;
+    --blueLight-rgba:rgb(101,79,195, .6);
+   --primary:#4C35AE;
+   --primaryLight-rgba:rgb(76,53,174,.6);
+   --Primary-deep:#351E98;
+   --PrimaryDeep-rgb:rgb(53,30,152);Deep;
+   
+   
+   
+   }
+
+
+
+
+
+.BlogView-page {}
+ .blog-post{
+    padding: 15px 20px;
+}
+.BlogView-area .blog-body{
+    width: 70%;
+}
+.blog-top-area .blog-photo{
+    height: 500px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.blog-top-area img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.blog-body .left-site p span{
+     font-weight: 600;
+     font-size: 20px;
+     color: var(--secondary);
+}
+
+.product-detail .flex-box{
+    justify-content: space-between;
+    margin: 25px 0;
+}
+.product-detail li:hover{
+    background-color: var(--GrayLight);
+    color: white;
+}
+.product-detail li{
+    width: 20%;
+    display: inline-block;
+    border-radius: var(--border-radius);
+    color: white;
+    margin: 0px 5px;
+    text-align: center;
+    border: 1px solid var(--GrayLight);
+    transition: var(--transition);
+}
+.product-detail li a{
+    padding: 0;
+}
+
+
+
+
+.BlogView-page .blog-body .left-site{
+    width: 65%;
+    border-right: 2px solid var(--GrayLight);
+    padding: 15px 0px;
+    padding-right: 15px;
+}
+.blog-body .left-site .color .flex-box{
+    width: 75%;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+.blog-body .left-site .color h6{
+    margin-top: 5px;
+}
+.blog-body .left-site .color .div{
+    width: 30px;
+    height: 30px;
+    border-radius: var(--border-radius);
+}
+.blog-body .left-site .color .div1{
+
+    background-color: var(--bluelight);
+}
+.blog-body .left-site .color .div2{
+
+    background-color: var(--blueLight-rgba);
+}
+.blog-body .left-site .color .div3{
+   
+    background-color: var(--secondary);
+}
+.blog-body .left-site .color .div4{
+  
+    background-color: var(--primaryLight-rgba);
+}
+.blog-body .left-site .color .div5{
+  
+    background-color: var(--GrayLight);
+}
+.blog-body  .card-foter li{
+    color: var(--bluelight);
+}
+.blog-body  .review-area i{
+    color: var(--bluelight);
+}
+.blog-body .price{
+    margin-top: 15px;
+}
+.blog-body .product-quantity{
+    border: none;
+    width:100%;
+    font-weight: 600;
+    margin: 0 auto;
+    
+}
+.product-quantity p{
+    width: 40%;
+    text-align: center;
+    margin: 0 10px;
+}
+.product-quantity  button{
+    width: 40%;
+    border-radius: var(--border-radius);
+    color: rgb(0, 0, 0);
+    padding:0px 10px;
+    font-size: 25px;
+}
+.product-quantity .d-flex{
+    text-align: center;
+    justify-content: space-between;
+}
+.product-quantity span:hover{
+    background-color: var(--GrayLight);
+    color: white;
+    transition: var(--transition);
+    cursor: pointer;
+}
+.product-quantity span{
+  width: 60px;
+  border: .5px solid var(--GrayLight);
+}
+.blog-body .button button:hover{
+    color: white;
+}
+.blog-body .button{
+    text-align: center;
+}
+.blog-body .button button{
+    border-radius: var(--border-radius);
+    width: 70%;
+    margin: 0 auto;
+    transition: var(--transition);
+}
+.blog-body .button{
+    margin-bottom: 25px;
+}
+
+
+.blog-body .faq-area{
+    margin-top: 50px;
+    position: relative;
+}
+.blog-body .faq-area h6{
+    padding: 10px 10px;
+    position: relative;
+}
+.blog-body .qus-ans{
+    position: relative;
+    cursor: pointer;
+    border: 1px solid var(--GrayLight);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0, .1);
+    margin: 8px 0;
+}
+.blog-body .faq-area i{
+    position: absolute;
+    top:30%;
+    right: 15px;
+}
+.blog-body .faq-area p{
+    display: none;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+.right-site .comments-profile{
+    margin: 25px 0;
+    border-bottom: 1px solid var(--dddd);
+}
+.blog-body .comments-profile .Profile{}
+.right-site .comments-profile .Profile h6{
+    align-self: center;
+    margin-left: 10px;
+}
+.blog-body .comments-profile .Profile img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 3px;
+    border: 2px dotted var(--secondary);
+}
+
+.blog-body .comments-profile{
+    margin: 25px 0;
+    border-bottom: 1px solid var(--dddd);
+}
+.blog-body .comments-profile .Profile{}
+.right-site .comments-profile .Profile h6{
+    align-self: center;
+    margin-left: 10px;
+}
+.blog-body .comments-profile .Profile img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 3px;
+    border: 2px dotted var(--secondary);
+}
+
+.blog-body .comments-profile .comment{
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+
+
+.right-site .comment-title{
+    display: flex;
+}.right-site .comment-title h6{
+   margin-right: 15px;
+}.right-site .comment-title p{
+   font-weight: 600;
+   color: var(--primary);
+}.right-site .comment-title i{
+  color: var(--secondary);
+  margin-right: 10px;
+  color: var(--bluelight);
+}
+.BlogView-page .blog-body .right-site{
+    width: 65%;
+    padding: 15px 20px;
+}
+
+
+
+
+
+.right-site .comments-profile .comment{
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+
+
+
+.comment-write-area{
+    padding: 6px;
+}
+.comment-write-area .container{
+    padding: 40px 0;
+}
+
+.comment-area .button{
+    text-align: right;
+}
+.comment-area button:hover{
+    transform: translateX(-5px);
+}
+.comment-area button{
+   padding: 3px 10px;
+    color: white;
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+}
+.comment-area h4{
+    text-align: center;
+}
+.comment-area form{
+    width: 60%;
+    margin: 0 auto;
+}
+.comment-area form .fill{
+    display: flex;
+    margin: 15px 0;
+}
+.comment-area form label{
+    width: 30%;
+}
+.comment-area form input{
+    width: 70%;
+    padding: 0px 5px;
+}
+.comment-area form li{
+    width: 30%;
+}
+.comment-area form textarea{
+    width: 70%;
+    height: 150px;
+    padding: 0px 5px;
+}
+
+
+
+
+
+
+
+
+

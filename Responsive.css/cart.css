@@ -1,0 +1,30 @@
+:root{
+    --GrayLight:#B8B4C7;
+    --GrayRgba:rgb(184,180,199,.5);
+     --bodyRGB:rgb(184,180,199,.3);
+    --secondary:#9893B0;
+    --darkGray:rgb(152,147,176);
+    --bluelight:#654FC3;
+    --blueLight-rgba:rgb(101,79,195, .6);
+   --primary:#4C35AE;
+   --primaryLight-rgba:rgb(76,53,174,.6);
+   --Primary-deep:#351E98;
+   --PrimaryDeep-rgb:rgb(53,30,152);
+   
+   
+   
+   }
+  
+  
+
+
+
+   @media (max-width:480px) {
+    .product-preview td{
+        width: 25%;
+        height: 60px;
+        align-items: center;
+        text-align: center;
+        
+    }
+   }

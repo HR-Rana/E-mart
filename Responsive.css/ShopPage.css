@@ -1,0 +1,130 @@
+
+
+:root{
+    --secondary: #0582e2;
+    --primary:rgb(201, 47, 0);
+    --dddd:#dddd;
+
+    --border-radius: 10px;
+    --product-sadow:0px 0px 30px 0px rgba(0,0,0, .1);
+    --defult-fonts:16px;
+    --h1-font-size:48px;
+    --h2-font-size:36px;
+    --h3-font-size:30px;
+    --h4-font-size:25px;
+    --transition: .5s;
+    --text-transform: uppercase;
+}
+
+
+
+
+@media (max-width:1200px) {
+   
+  
+}
+@media (max-width:992px) {
+    .filter-out-layer{
+     
+        height: 100%;
+        z-index: 55555555555;
+        position: fixed;
+        display: none;
+    }
+    .filter-area .filter-out-area{
+        width: 250px;
+        height: 100%;
+        overflow: scroll;
+        padding:20px 15px;
+    }
+    .all-product-area .Product-area .Product{
+        display: inline-block;
+        width:32.6%;
+        flex-wrap: wrap;
+        margin: 10px 0;
+    }
+    .all-product-area  .heading{
+        width: 40%;
+      font-size: 25px;
+       letter-spacing: 2px;
+    }
+    .all-product-area .lists{
+        width: 60%;
+        float: right;
+        overflow: hidden;
+       
+    }
+   
+}
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+    .filter-area h4{
+        font-size: 26px;
+    }
+    .all-product-area .lists{
+        width: 0%;
+       
+    }
+    .Product-heading .heading{
+        width: 100%;
+        font-size: 20px;
+    }
+       
+    .all-product-area .Product-area .Product{
+        display: inline-block;
+        width:48%;
+        flex-wrap: wrap;
+        margin: 10px 0;
+    }
+    .all-product-area .lists .flex-box button{
+        display: none;
+    }
+   .filter-area .filter-box h4{
+       font-size: 20px;
+   }
+
+   
+
+}
+
+
+
+@media (max-width:576px) {
+  
+    
+}
+
+
+
+
+
+@media (max-width:480px) {
+    .all-product-area .Product-area .Product{
+        display: inline-block;
+        width:95%;
+        flex-wrap: wrap;
+        margin: 10px auto;
+    }
+    .all-product-area .Product-area img{
+        width: 100%;
+        height: 300px;
+    }
+    .filter-area .filter-box h4{
+        font-size: 17px;
+    }
+    
+.filter-area .filter-box .filter-icon{
+    position: absolute;
+    top: -5%;
+    right: 10px;
+    font-size: 18px;
+}
+   
+}

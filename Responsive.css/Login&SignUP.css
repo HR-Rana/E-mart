@@ -1,0 +1,59 @@
+
+
+
+
+
+@media (max-width:992px) {
+        
+    .Signup-area{
+        background:none;
+        height: 100%;
+    }
+    .top-wrap .logo-site{
+        width: 30%;
+        text-transform: uppercase;
+        text-align: left;
+    }
+    .top-wrap .right-text{
+        width: 70%;
+        padding-top: 7px;
+    }
+    .Signup-form{
+        width:70%;
+        margin: 0 auto;
+        background-color: var(--dddd);
+        padding: 25px;
+        height: 100%;
+    }
+}
+
+
+@media (max-width:768px) {
+   
+    .Signup-form{
+        width: 90%;
+        background-color: var(--dddd);
+        padding: 15px;
+        box-shadow: 0px 0px 15px 0px rgba(0,0,0, .3);
+    }
+    .Signup-form form{
+       padding: 25px 0;
+    }
+    .Signup-form .border-area form label{
+        width: 25%;
+        font-weight: 400;
+    }
+    .Signup-form form .fill{
+        display: block;
+    }
+    .Signup-area .border-area form label{
+        width: 100%;
+        font-weight: 600;
+        font-weight: 400;
+    }
+
+    .Signup-area .border-area form input{
+        width: 100%;
+        float: none;
+    }
+}
